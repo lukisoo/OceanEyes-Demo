@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title>OceanEyes</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+
+    <script src="js/scroller.js"></script>
+
+    <!-- CSS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+
+    <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+
+<body>
+
+    <!-- Header
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="container" id="">
+        <div class="row">
+            <div class="one-half column">
+                <!-- <h3 style="font-family: 'Montserrat', sans-serif; font-weight: bold;" alt="Title">LOGO</h3> -->
+                <img src="images/OceanEyes.png" style="padding-top: 10px;">
+            </div>
+            <div class="one-half column" style="float: right; text-align: right;">
+                <p style="font-family: 'Montserrat', sans-serif; font-weight: bold; vertical-align: text-bottom;" onclick="location.href='profile.html';">
+                    <br><br><br>Profile</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="container" id="">
+        <div class="row" style="padding-top: 30px; padding-bottom: 30px;">
+            <!-- <img src="images/banner.png" width="100%" /> -->
+
+            <!-- BANNER AUTOMATIC SLIDESHOW -->
+
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                    <img src="images/banner1.png" style="width:100%">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="images/banner2.png" style="width:100%">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="images/banner3.png" style="width:100%">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="images/banner4.png" style="width:100%">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="images/banner5.png" style="width:100%">
+                </div>
+
+            </div>
+
+            <!-- AUTO SLIDESHOW SCRIPT -->
+            <script>
+                var slideIndex = 0;
+                showSlides();
+
+                function showSlides() {
+                    var i;
+                    var slides = document.getElementsByClassName("mySlides");
+                    for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";
+                    }
+                    slideIndex++;
+                    if (slideIndex > slides.length) { slideIndex = 1 }
+                    slides[slideIndex - 1].style.display = "block";
+                    setTimeout(showSlides, 2000); // Change image every 2 seconds
+                }
+            </script>
+
+        </div>
+    </div>
+
+    <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="container" id="">
+        <div class="row" style="margin-top: 120px;">
+            <div class="boxy">
+                <h5>PROJECT DUGONG</h5>
+            </div>
+        </div>
+    </div>
+
+    <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="container" id="">
+        <div class="row" style="margin: auto;">
+            <img class="slides" id="1" src="images/slider1.png" style="display: block;">
+            <img class="slides" id="2" src="images/slider2.png" style="display: none;">
+            <img class="slides" id="3" src="images/slider1.png" style="display: none;">
+            <img class="slides" id="4" src="images/slider2.png" style="display: none;">
+
+            <span class="arrow arrow-left" style="position: absolute; top: 50%; left: 14%;"
+                onclick="nextSlide(false)"></span>
+            <span class="arrow arrow-right" style="position: absolute; top: 50%; right: 14%;"
+                onclick="nextSlide(true)"></span>
+        </div>
+    </div>
+
+    <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="container" id="">
+        <div class="row" style="margin-top: 50px;">
+            <div class="boxy2 three columns" onclick="location.href='bluepoo.html';">
+                <img class="boxy2img" src="images/token4.png" />
+                <div class="words">
+                    <div class="row">
+                        <h5 class="bold">BluePoo</h5>
+                        <p class="subtitle">1 of 20</p>
+                    </div>
+                    <p class="para">OceanEyes</p>
+                    </br>
+                    <p class="para">Limited Edition until 21/02</p>
+                    <span class="dots">...</span>
+                </div>
+            </div>
+
+            <div class="boxy2 three columns" onclick="location.href='babygong.html';">
+                <img class="boxy2img" src="images/token5.png" />
+                <div class="words">
+                    <div class="row">
+                        <h5 class="bold">BabyGong</h5>
+                        <p class="subtitle">1 of 20</p>
+                    </div>
+                    <p class="para">OceanEyes</p>
+                    </br>
+                    <p class="para">Limited Edition until 21/02</p>
+                    <span class="dots">...</span>
+                </div>
+            </div>
+
+            <div class="boxy2 three columns" onclick="location.href='kelpstache.html';">
+                <img class="boxy2img" src="images/token3.png" />
+                <div class="words">
+                    <div class="row">
+                        <h5 class="bold">Kelpstache</h5>
+                        <p class="subtitle">1 of 20</p>
+                    </div>
+                    <p class="para">OceanEyes</p>
+                    </br>
+                    <p class="para">Limited Edition until 21/02</p>
+                    <span class="dots">...</span>
+                </div>
+            </div>
+
+            <div class="boxy2 three columns" onclick="location.href='fuckoff.html';">
+                <img class="boxy2img" src="images/token1.png" />
+                <div class="words">
+                    <div class="row">
+                        <h5 class="bold">Fuck Off</h5>
+                        <p class="subtitle">1 of 20</p>
+                    </div>
+                    <p class="para">OceanEyes</p>
+                    </br>
+                    <p class="para">Limited Edition until 21/02</p>
+                    <span class="dots">...</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="container" id="">
+        <div class="row boxy" style="margin-top: 120px; margin-bottom: 120px;">
+            <h4>Our Partners</h4>
+        </div>
+        <div class="row" style="margin-bottom: 180px; vertical-align: middle;">
+            <div class="three columns" style="padding:5px;">
+                <img src="images/seashepherd.png" class="cenpic" width="100%">
+            </div>
+
+            <div class="three columns" style="padding:5px;">
+                <img src="images/oceanconservationtrust.png" class="cenpic" width="100%">
+            </div>
+
+            <div class="three columns" style="padding:5px;">
+                <img src="images/cleanoceanaction.png" class="cenpic" width="100%">
+            </div>
+
+            <div class="three columns" style="padding:5px;">
+                <img src="images/burgess.png" class="cenpic" width="100%">
+            </div>
+        </div>
+    </div>
+
+    <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="container" id="">
+        <div class="row">
+
+        </div>
+    </div>
+
+    <!-- FOOTER
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div style="background-color: black; color: white; width: 100%-30px; padding-left: 30px; padding-top: 30px;">
+        <div class="row">
+            <div class="three columns">
+                <h3 style="font-family: 'Montserrat', sans-serif; font-weight: bold;" alt="Title">INTEG</h3>
+            </div>
+            <div class="two columns">
+                <p>Footer Link</p>
+            </div>
+            <div class="two columns">
+                <p>Footer Link</p>
+            </div>
+            <div class="two columns">
+                <p>Footer Link</p>
+            </div>
+            <div class="two columns">
+                <p>Footer Link</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="nine columns">
+                <p>(c) 2021 INTEG All RIghts Reserved</p>
+            </div>
+            <div class="three columns" style="padding: top 20px; padding-bottom: 50px;">
+                <p>TODO: ADD SOCIAL ICONS</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+
+</html>
